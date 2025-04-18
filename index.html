@@ -59,20 +59,20 @@
     </div>
     <script>
         const cardPool = [
-            { name: '浅仓透', probability: 0.0075, image: 'ch1.png' },
-            { name: '樋口円香', probability: 0.0075, image: 'ch2.png' },
-            { name: '福丸小糸', probability: 0.0075, image: 'ch3.png' },
-            { name: '市川雏菜', probability: 0.0075, image: 'ch4.png' },
+            { name: '间桐樱', probability: 0.0075, image: 'ch1.png' },
+            { name: 'Saber', probability: 0.0075, image: 'ch2.png' },
+            { name: '远坂凛', probability: 0.0075, image: 'ch3.png' },
+            { name: '红A', probability: 0.0075, image: 'ch4.png' },
 			{ name: '常驻人物', probability: 0.02, image: 'ch5.png' },
 			{ name: '装扮', probability: 0.10, image: 'ch6.png' },
 			{ name: '礼物', probability: 0.85, image: 'ch7.png' }
         ];
 
         let stats = {
-            '浅仓透': 0,
-            '樋口円香': 0,
-            '福丸小糸': 0,
-            '市川雏菜': 0,
+            '间桐樱': 0,
+            'Saber': 0,
+            '远坂凛': 0,
+            '红A': 0,
 			'常驻人物':0,
 			'装扮':0,
 			'礼物':0,
@@ -108,10 +108,10 @@
         function updateStats() {
             const statsDiv = document.getElementById('stats');
             statsDiv.innerHTML = `累计抽卡统计：${stats.total}<br>
-                                  浅仓透: ${stats['浅仓透']}<br>
-                                  樋口円香: ${stats['樋口円香']}<br>
-                                  福丸小糸: ${stats['福丸小糸']}<br>
-                                  市川雏菜: ${stats['市川雏菜']}<br>
+                                  间桐樱: ${stats['间桐樱']}<br>
+                                  Saber: ${stats['Saber']}<br>
+                                  远坂凛: ${stats['远坂凛']}<br>
+                                  红A: ${stats['红A']}<br>
 								常驻人物: ${stats['常驻人物']}<br>
 								装扮: ${stats['装扮']}<br>
 								礼物: ${stats['礼物']}`;
